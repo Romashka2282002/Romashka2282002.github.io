@@ -1,0 +1,95 @@
+body {
+	margin:0;
+	margin-top:-25px;
+	background-image: url(images/back.jpg);
+	
+}
+.header{
+	padding-top:20px;
+	height:220px;
+	background-image: url(images/header.png);
+}
+.menu {
+	position:fixed;
+	float:left;
+	width:20%;
+	margin-left:5%;
+
+}
+.menu li {
+	background-color:orange;
+	display:block;
+	width:90%; 
+	height:auto;
+	padding:3%;
+	margin-top:1%;
+	border-radius:10px 0px 0px 10px;	
+}
+.menu a {color:black;}
+.menu li:hover {
+	margin-left:20%;
+	background-color:#f00;
+	color:white;
+	width:75%;
+}
+.main_menu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background:#FF4444; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+.main_menu a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#FF4444; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#000; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #F36262; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.main_menu li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:20px; /*Добавляем отступ у пунктов меню*/
+}
+h1 {
+text-align:center;
+color:#fff;
+}
+h2 {
+	text-align:center;
+}
+.rzhaka {
+	text-align:center;
+	margin-top:5px;
+	background: #500005;
+	color: #fff;
+	width: 30%;
+	padding:10px;
+	margin-left:35%;
+	border-width:11px;
+	border-color: #749;
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 20px;
+	border-top-color: #ff0;
+	border-right-color: #faa;
+	border-left-color: #f00;
+}
+img {width:100%;}
+.content {
+	float:left;
+	background-color:#eee;
+	width:50%;
+	padding:2%;
+	font-size:20px;
+	margin-left:25%;
+}
+table {width:100%;}
+td{width:50%}
+.logo {width:20px;}

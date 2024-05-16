@@ -1,0 +1,22 @@
+body {
+	margin:0;
+}
+h1 {
+	text-align:center;
+}
+.content {
+	background:#eee;
+	width:50%;
+	margin-left:25%;
+	padding:1%;
+	padding-top:5%;
+}
+.header {
+	width:100%;
+	position:fixed;
+	height:10%;
+	background:#3cf;
+}
+.header h1 {
+	margin:0;
+}
